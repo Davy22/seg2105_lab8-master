@@ -14,6 +14,8 @@ public class PasswordValidator {
 
             // If both conditions are met, the password is valid
             if (hasUpperCase && hasLowerCase) return true;
+
+
         }
         return false;
     }
